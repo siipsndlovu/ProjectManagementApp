@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjectManagamentApp</string>
+    <string name="Studentid">StudentID:</string>
+    <string name="register_account">Register Account</string>
+    <string name="username">Username:</string>
+    <string name="hint1">...</string>
+    <string name="hint2">...</string>
+    <string name="first_name">First Name:</string>
+    <string name="second_name">Second Name:</string>
+    <string name="Password">Password:</string>
+    <string name="project_manager">Project Manager</string>
+    <string name="StudentID">StudentID:</string>
+    <string name="register">Register</string>
+    <string name="login">Log-in</string>
+    <string name="or">Or</string>
+    <string name="View">View Projects</string>
+    <string name="Create">Create Project</string>
+    <string name="Title">Title:</string>
+    <string name="Description">Description:</string>
+    <string name="Year">Year:</string>
+    <string name="Upload">Upload Image</string>
+    <string name="Project">ProjectID:</string>
+</resources>

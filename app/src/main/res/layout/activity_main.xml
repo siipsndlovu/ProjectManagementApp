@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TextRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="90dp"
+        android:textSize="24sp"
+        android:text="@string/project_manager" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Id"
+        android:layout_alignStart="@id/Id"
+        android:layout_marginStart="-130dp"
+        android:textSize="24sp"
+        android:text="@string/StudentID"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Id"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:layout_alignTop="@id/TextRegister"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="160dp"
+        android:hint="@string/hint2"
+        android:ems="10"
+        android:inputType="numberSigned"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pword"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:layout_alignTop="@id/Id"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="160dp"
+        android:hint="@string/hint2"
+        android:ems="10"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Pword"
+        android:layout_alignStart="@id/Pword"
+        android:id="@+id/pwordText"
+        android:layout_marginStart="-130dp"
+        android:textSize="24sp"
+        android:text="@string/Password"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/Pword"
+        android:layout_marginTop="100dp"/>
+
+
+</android.widget.RelativeLayout>
